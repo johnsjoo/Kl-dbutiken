@@ -1,0 +1,39 @@
+C:\Users\johns\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.exe
+C:\Users\johns\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.deps.json
+C:\Users\johns\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.runtimeconfig.json
+C:\Users\johns\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.runtimeconfig.dev.json
+C:\Users\johns\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.dll
+C:\Users\johns\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.pdb
+C:\Users\johns\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.csprojAssemblyReference.cache
+C:\Users\johns\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.AssemblyInfoInputs.cache
+C:\Users\johns\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.AssemblyInfo.cs
+C:\Users\johns\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.csproj.CoreCompileInputs.cache
+C:\Users\johns\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.dll
+C:\Users\johns\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.pdb
+C:\Users\johns\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.genruntimeconfig.cache
+C:\Users\John\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.exe
+C:\Users\John\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.deps.json
+C:\Users\John\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.runtimeconfig.json
+C:\Users\John\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.runtimeconfig.dev.json
+C:\Users\John\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.dll
+C:\Users\John\Desktop\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.pdb
+C:\Users\John\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.csprojAssemblyReference.cache
+C:\Users\John\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.AssemblyInfoInputs.cache
+C:\Users\John\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.AssemblyInfo.cs
+C:\Users\John\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.dll
+C:\Users\John\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.pdb
+C:\Users\John\Desktop\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.genruntimeconfig.cache
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.exe
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.deps.json
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.runtimeconfig.json
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.runtimeconfig.dev.json
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.dll
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\bin\Debug\netcoreapp3.1\Klädbutiken.pdb
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.csprojAssemblyReference.cache
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.AssemblyInfoInputs.cache
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.AssemblyInfo.cs
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.csproj.CoreCompileInputs.cache
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.dll
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.pdb
+C:\Users\John\Desktop\c# Uppgifter\Klädbutiken\obj\Debug\netcoreapp3.1\Klädbutiken.genruntimeconfig.cache
