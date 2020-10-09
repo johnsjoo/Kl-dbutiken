@@ -144,52 +144,82 @@ namespace Klädbutiken
             Console.Clear();
 
             
-            int index = 0;
+            
             Console.WriteLine("Välkommen till butiken!Tryck 's' för att börja shoppa!");
             Console.WriteLine("*********************************************************");
             string startShopping = Console.ReadLine();
             Console.Clear();
-            //while(keySpressed == false)
-            
+
+            int counter4 = 1;
             if (startShopping == "s")
             {
                 while (true)
                 {
+                    int index = 0;
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    Console.Clear();
                     Console.WriteLine("Tryck på 'A' och 'Z' för att blädra och 'Enter' för att köpa!");
                     Console.WriteLine("Här är de tillgängliga plaggen i butiken");
-                    foreach (Cloth c in store)
+                    switch (key.Key)
                     {
+                        //stega upp
+                        case ConsoleKey.A:
+                            if (counter4 >= 0 || counter4 < store.Count)
+                            {
+                                counter4--;
+                                if (counter4 <= 0)
+                                {
+                                    counter4++;
+                                }
+                                for (int i = 0; i < store.Count; i++)
+                                {
+                                    index++;
+                                    if (counter4 == index)
+                                    {
+                                        Console.WriteLine($"{index}.[ {store} ]");
+                                        
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine($"{index} . {store[i]} ");
+                                        
+                                    }
 
-                        index++;
-                        Console.Write(index + ".");
-                        Console.WriteLine("Klädtyp: " + Enum.GetName(typeof(ClothType), c.Type) + "| Storlek: " + Enum.GetName(typeof(Size), c.Size) + "| Färg: " + Enum.GetName(typeof(Color), c.Color) + "| Pris: " + c.Price + "kr");
+                                }
+                                Console.WriteLine("Counter: " + counter4);
+                            }
+                            break;
 
+                        //stega ner
+                        case ConsoleKey.Z:
+                            if (counter4 <= store.Count)
+                            {
+                                counter4++;
+                                if (counter4>=6)
+                                {
+                                    counter4--;
+                                }
+                                foreach (Cloth c in store)
+                                {
+                                    index++;
+                                    if (counter4 == index)
+                                    {
+                                        Console.WriteLine("[Klädtyp: " + Enum.GetName(typeof(ClothType), c.Type) + "| Storlek: " + Enum.GetName(typeof(Size), c.Size) + "| Färg: " + Enum.GetName(typeof(Color), c.Color) + "| Pris: " + c.Price + "kr]");
+
+
+                                    }
+                                    else
+                                    {
+                                        Console.WriteLine("Klädtyp: " + Enum.GetName(typeof(ClothType), c.Type) + "| Storlek: " + Enum.GetName(typeof(Size), c.Size) + "| Färg: " + Enum.GetName(typeof(Color), c.Color) + "| Pris: " + c.Price + "kr");
+
+                                    }
+                                }
+                                Console.WriteLine("Counter" + counter4);
+                            }
+                            break;
+                        
                     }
-                    ConsoleKeyInfo key = Console.ReadKey();
-                    //Stega ner
-                    if (key.Key == ConsoleKey.A)
-                    {
-
-                        if (index == store.Count)
-                        {
-                            index++;
-                        }
-
-                    }
-                    //Stega upp
-                    else if (key.Key == ConsoleKey.Z)
-                    {
-                        if (true)
-                        {
-                            index--;
-                        }
-
-                    }
-                    else if (key.Key == ConsoleKey.Enter)
-                    {
-                        shoppingCart.Add(store[index]);
-
-                    }
+                    
 
                 }    
             }
