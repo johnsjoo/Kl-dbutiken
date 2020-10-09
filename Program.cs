@@ -171,20 +171,20 @@ namespace Klädbutiken
                                 {
                                     counter4++;
                                 }
-                                for (int i = 0; i < store.Count; i++)
+                                foreach (Cloth c in store)
                                 {
                                     index++;
                                     if (counter4 == index)
                                     {
-                                        Console.WriteLine($"{index}.[ {store} ]");
-                                        
+                                        Console.WriteLine("[Klädtyp: " + Enum.GetName(typeof(ClothType), c.Type) + "| Storlek: " + Enum.GetName(typeof(Size), c.Size) + "| Färg: " + Enum.GetName(typeof(Color), c.Color) + "| Pris: " + c.Price + "kr]");
+
+
                                     }
                                     else
                                     {
-                                        Console.WriteLine($"{index} . {store[i]} ");
-                                        
-                                    }
+                                        Console.WriteLine("Klädtyp: " + Enum.GetName(typeof(ClothType), c.Type) + "| Storlek: " + Enum.GetName(typeof(Size), c.Size) + "| Färg: " + Enum.GetName(typeof(Color), c.Color) + "| Pris: " + c.Price + "kr");
 
+                                    }
                                 }
                                 Console.WriteLine("Counter: " + counter4);
                             }
